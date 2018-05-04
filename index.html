@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div class="torch">
+	<div  class="light"></div>
+	<div class="head"></div>
+	<div class="handle">
+		<div class="switch" onclick="onoff()"></div>
+	</div>
+	
+	
+
+</div>
+</body>
+<script type="text/javascript">
+	function onoff() {
+		var light=document.getElementsByClassName('light')[0];
+		light.classList.toggle("on");
+		
+
+
+	}
+</script>
+</html>
